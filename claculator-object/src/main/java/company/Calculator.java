@@ -1,39 +1,56 @@
 package company;
 
-import java.util.Scanner;
-
 public class Calculator {
-    public static void main(String[] args) {
-        System.out.println("please enter a number");
+    public int answer;
+    double answerB;
 
-        Scanner sc = new Scanner(System.in);
-        double number1 = sc.nextDouble();
 
-        char operator = sc.next().charAt(0);
+    public int addInt(int a, int b) {
+        answer = a + b;
+        System.out.println(a + " + " + b + " = " + answer);
+        return a + b;
+    }
 
-        double number2 = sc.nextDouble();
-        double result = 0.0;
+    public int subtractInt(int a, int b) {
+        answer = a- b;
+        System.out.println(a + " - " + b + " = " + answer);
+        return a - b;
+    }
 
-        switch(operator) {
-            case '+':
-                result = number1 + number2;
-                System.out.println(result);
-                break;
-            case '-':
-                result = number1 - number2;
-                System.out.println(result);
-                break;
-            case '*':
-                result = number1 * number2;
-                System.out.println(result);
-                break;
-            case '/':
-                result = number1 / number2;
-                System.out.println(result);
-                break;
-            default:
-                System.out.println("Invalid operator");
-                break;
-        }
+
+    public int multiplyInt(int a, int b) {
+        answer = a * b;
+        System.out.println(a + " * " + b + " = " + answer);
+        return a * b;
+    }
+
+    public int divideInt(int a, int b) {
+        answer = a / b;
+        System.out.println(a + " / " + b + " = " + answer);
+        return a / b;
+    }
+
+    public double addDouble(double a, double b) {
+        answerB = a + b;
+        System.out.println(a + " + " + b + " = " + answerB);
+        return a + b;
+    }
+
+    public double subtractDouble(double a, double b) {
+        answerB = a - b;
+        System.out.println(a + " - " + b + " = " + answerB);
+        return a - b;
+    }
+
+    public double multiplyDouble(double a, double b) {
+        answerB = a * b;
+        System.out.println(a + " * " + b + " = " + answerB);
+        return a * b;
+    }
+
+    public double divideDouble(double a, double b) {
+        answerB = a / b;
+        System.out.println(a + " / " + b + " = " + answerB);
+        return a / b;
     }
 }
