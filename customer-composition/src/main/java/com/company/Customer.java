@@ -8,9 +8,9 @@ public class Customer {
         bob.setEmail("bob@gmail.com");
         Address x = new Address();
         x.setStreet("123 Main Street");
-        x.setCity("Charlotte");
-        x.setState("NC");
-        x.setZipcode("29202");
+        x.setCity("Brooklyn");
+        x.setState("NY");
+        x.setZipcode("11206");
         bob.setBillingAddress(x);
         bob.setShippingAddress(x);
 
