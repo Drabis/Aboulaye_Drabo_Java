@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customer-composition" />
+        <module name="rpgInheritance" />
+        <module name="claculator-object" />
+        <module name="iceCreamDesign" />
+        <module name="claculator-object (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="claculator-object" target="8" />
+      <module name="claculator-object (1)" target="8" />
+      <module name="customer-composition" target="8" />
+      <module name="iceCreamDesign" target="8" />
+      <module name="rpgInheritance" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

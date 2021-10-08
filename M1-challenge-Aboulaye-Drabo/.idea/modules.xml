@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/M1-challenge-Aboulaye-Drabo.iml" filepath="$PROJECT_DIR$/.idea/M1-challenge-Aboulaye-Drabo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator-object/claculator-object.iml" filepath="$PROJECT_DIR$/calculator-object/claculator-object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/claculator-object/claculator-object (1).iml" filepath="$PROJECT_DIR$/claculator-object/claculator-object (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-composition/customer-composition.iml" filepath="$PROJECT_DIR$/customer-composition/customer-composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iceCreamDesign/iceCreamDesign.iml" filepath="$PROJECT_DIR$/iceCreamDesign/iceCreamDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpgInheritance/rpgInheritance.iml" filepath="$PROJECT_DIR$/rpgInheritance/rpgInheritance.iml" />
+    </modules>
+  </component>
+</project>
