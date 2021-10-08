@@ -1,39 +1,16 @@
 package com.company;
 
-import java.util.Objects;
-
-public class Farmer extends Role{
-
+public class Farmer extends Character {
 
     public Farmer(String name) {
-        super(name);
-        System.out.println("**** created a FARMER named: " + name);
-        this.setStrength(75);
-        this.setHealth(100);
-        this.setStamina(75);
-        this.setSpeed(10);
-        this.setAttackPower(1);
+        super(name, 75, 100, 75, 10, 1);
     }
 
-    protected void plow() {
-        decreaseStamina();
-        System.out.println("**** METHOD: plow. Stamina: " + getStamina());
+    public void plow() {
+        System.out.println("Work, work, work...");
     }
 
-    protected void harvest() {
-        decreaseStamina();
-        System.out.println("**** METHOD: harvest. Stamina: " + getStamina());
+    public void harvest() {
+        System.out.println("Hi-ho, hi-ho. It's off to the silo we go!");
     }
-    protected void heal() {
-        this.setStrength(75);
-        this.setHealth(100);
-        this.setStamina(75);
-        this.setSpeed(10);
-        this.setAttackPower(1);
-        System.out.println("**** Farmer's attributes have been restored ");
-    }
-
-
-
 }
-

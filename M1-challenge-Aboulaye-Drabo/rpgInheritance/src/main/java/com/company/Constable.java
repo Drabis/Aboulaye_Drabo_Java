@@ -1,33 +1,19 @@
 package com.company;
 
-public class Constable extends Role{
+public class Constable extends Character {
 
-    private boolean jurisdiction;
+    private String jurisdiction;
 
-    public Constable(String name) {
-        super(name);
-        System.out.println("**** created a Constable named: " + name);
-        this.setStrength(60);
-        this.setHealth(100);
-        this.setStamina(60);
-        this.setSpeed(20);
-        this.setAttackPower(5);
-        this.jurisdiction = true;
+    public Constable(String name, String jurisdiction) {
+        super(name, 60, 100, 60, 20, 5);
+        this.jurisdiction = jurisdiction;
     }
 
-    protected void arrest() {
-        System.out.println("**** starting METHOD: arrest. Stamina: " + getStamina());
-        decreaseStamina();
-        System.out.println("**** ending METHOD: arrest. Stamina: " + getStamina());
-
+    public void arrest(Character enemy) {
+        System.out.format("Hey %s! Halt! You're under arrest", enemy.getName());
     }
 
-    protected void heal() {
-        this.setStrength(60);
-        this.setHealth(100);
-        this.setStamina(60);
-        this.setSpeed(20);
-        this.setAttackPower(5);
-        System.out.println("**** Constable's attributes have been restored ");
+    public String getJurisdiction() {
+        return jurisdiction;
     }
 }
